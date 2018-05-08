@@ -1,0 +1,61 @@
+.State-data {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 13vw;
+  transition:all 1s ease;
+  text-decoration: none;
+  color: black;
+  animation: fadein 1s;
+}
+
+@keyframes fadein {
+  0% { opacity: 0; }
+  66% { opacity: 0; }
+  100% { opacity: 1; } 
+}
+
+.State-data:hover {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  color: #ff5a00;
+  transition:all 1s ease;
+}
+
+.Text {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  animation: fadein 2.5s;
+}
+
+.Fetch-box {
+  background-color: #fff;
+  margin: auto;
+  color: #000;
+  text-align: center;
+  position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+  right: 0;
+  width: 60%;
+  height: 200px;
+}
+
+.Loading-container {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+@media (min-width: 768px) {
+  .State-data {
+    font-size: 80px;
+  }
+}
